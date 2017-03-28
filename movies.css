@@ -1,0 +1,153 @@
+body{
+    background-image: url("images/moviebg.png");
+}
+#banner img {
+	height: 50px;
+	float: left;
+	
+}
+h1 {
+	text-align: center;
+	font-size:24pt;
+	font-family: "Times New Roman", Times, serif;
+	text-shadow: 2px 2px dimgray;
+}
+#banner p {
+	background-image: url("images/rancidbannerbg.png");
+	height:50px;
+	margin: auto;
+}
+.main {
+	width:800px;
+	margin:auto;
+	text-align:center;
+    border-radius: 25px;
+	box-shadow: 10px 10px 5px gray;
+    background-color:lightgrey;
+}
+
+#rottenLarge {
+	float:left;
+	vertical-align: bottom;
+	width:550px;
+	margin:auto;
+
+	background-image: url("images/rottenlargebg.png");
+	border-top-left-radius:25px;
+	text-align: left;
+	color:red;
+	font-weight: bold;
+	font-size:48pt;
+	font-family: "Times New Roman", Times, serif;
+
+}
+#rottenLarge img {
+	height:83px;
+	float:left;
+	margin:auto;
+
+	 border-top-left-radius:25px;
+	  vertical-align:bottom;
+}
+
+#poster{
+
+	margin:auto;
+
+	float:right;
+	
+}
+#poster img{
+	border-top-right-radius:25px;
+    float:right;
+}
+#reviews{
+	width:550px;
+
+	margin:auto;
+
+	float:left;
+	height:830px;
+}
+#leftCol {
+	width:275px;
+	margin:auto;
+	float:left;
+}
+#leftCol img{
+	vertical-align:top;
+	float:left;
+}
+#leftCol p{
+	text-align:left;
+}
+#rightCol img{
+	vertical-align:top;
+	float:left;
+}
+#rightCol p{
+	text-align:left;
+}
+
+
+.review {
+    margin:auto;
+	text-align:left;
+	font-size:10pt;
+    border-radius: 20px;
+	border-style: solid;
+    border-width: 2px;
+	border-color: darkgray;
+	padding: 8px 8px 8px 8px;
+	background-color:white;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#rightCol {
+	width:275px;
+	margin:auto;
+
+	float:right;
+	height:833.5px;
+}
+#cast{
+    margin-left:550px;
+    background-color:darkseagreen;
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+    
+}
+#cast dt  {
+    font-family: Helvetica,Arial,sans-serif;
+    padding-left:12px;
+    padding-right:12px;
+    padding-top:5px;
+    text-align:left;
+    font-weight:bold;
+    font-size:10pt;
+}
+#cast dd  {
+    font-family: Helvetica,Arial,sans-serif;
+    padding-left:12px;
+    padding-right:12px;
+    text-align:left;
+    font-size:10pt;
+}
+
+ul {
+    list-style:none;
+    padding:0px;
+    font-size:10pt;
+    margin-bottom:10px;
+    
+}
+li {
+    text-align:left;
+    font-size:10pt;
+
+}
+
+
+	
+
+
